@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+}
+
+#pana {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+}
+
+#pana img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.greenBal, .redBall {
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: solid black 1px;
+  border-radius: 50%;
+}
+
+.greenBal {
+  background-color: green;
+}
+
+.redBall {
+  background-color: red;
+}
+
+.eyes {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  column-gap: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.eye {
+  margin-top: 30%;
+  height: 20%;
+  width: 10%;
+  color: black;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.mouth {
+  margin-top: 15%;
+  margin-left: 25%;
+  height: 5%;
+  width: 50%;
+  color: black;
+  background-color: black;
+}
+
+
+#message {
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+#log {
+  color: white;
+}
